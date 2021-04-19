@@ -14,24 +14,13 @@ public class CheckerboardKarel extends SuperKarel {
 
 	public void run() {
 		 move();
-		 pickBeeper();
-		 move();
-		 turnLeft();
-		 move();
-		 turnRight();
-		 move();
-		 move();
-		 putBeeper();
-		 move();
+		 turnleft1();
 		 }
 		/**
 		 * Turns Karel 90 degrees to the right.
 		 */
-		 public void turnRightt() {
+		 public void turnleft1() {
 		 turnLeft();
-		 turnLeft();
-		 turnLeft();
-		 move();
 		 move();
 		 }
 	}
