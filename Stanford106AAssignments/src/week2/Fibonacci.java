@@ -7,13 +7,13 @@ public class Fibonacci extends ConsoleProgram {
 
 	public void run() {
 		println("This program lists the Fibonacci sequence.");
-		int t1 = 0;
-		int t2 = 1;
-		while (t1 <= MAX_TERM_VALUE) {
-		println(t1);
-		int t3 = t1 + t2;
-		t1 = t2;
-		t2 = t3;
+		int Number1 = 0;
+		int Number2 = 1;
+		while (Number1 <= MAX_TERM_VALUE) {
+		println(Number1);
+		int Sum = Number1 + Number2;
+		Number1 = Number2;
+		Number2 = Sum;
 		}
 		}
 
