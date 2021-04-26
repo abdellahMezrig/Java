@@ -15,7 +15,7 @@ public class RandomCircles extends GraphicsProgram {
 	 double r = rgen.nextDouble(MIN_RADIUS, MAX_RADIUS);
 	 double x = rgen.nextDouble(0, getWidth() - 2 * r);
 	 double y = rgen.nextDouble(0, getHeight() - 2 * r);
-	 GOval circle = new GOval(x, y, 4 * r, 4 * r);
+	 GOval circle = new GOval(x, y, 2 * r, 2 * r);
 	 circle.setFilled(true);
 	 circle.setColor(rgen.nextColor());
 	 add(circle);
